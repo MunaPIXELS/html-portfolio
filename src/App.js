@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App = () => {
   useEffect(() => {
@@ -40,6 +41,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
+      <SpeedInsights />
     </>
   );
 };
