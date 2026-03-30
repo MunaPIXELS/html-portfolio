@@ -58,7 +58,7 @@ const Projects = () => (
 
           {featured && (
             <div className="featured-visual">
-              <div className="featured-visual-url">// easymarket.app</div>
+              <div className="featured-visual-url">{'// easymarket.app'}</div>
               <div className="featured-visual-text">SHOP<br />SMART</div>
               <div className="featured-visual-dots">
                 <div className="dot dot-1"></div>
